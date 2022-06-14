@@ -14,14 +14,9 @@ import com.example.yourmovie.Model.Movie
 class MainActivity : AppCompatActivity() {
     private lateinit var popularMovies: RecyclerView
     private lateinit var popularMoviesAdapter: MoviesAdapter
-    private lateinit var popularMoviesLayoutMgr: LinearLayoutManager
-
-    private var popularMoviesPage = 1
-
     private lateinit var topRatedMovies: RecyclerView
     private lateinit var topRatedMoviesAdapter: MoviesAdapter
-    private lateinit var topRatedMoviesLayoutMgr: LinearLayoutManager
-
+    private var popularMoviesPage = 1
     private var topRatedMoviesPage = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
